@@ -3,11 +3,16 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-    <Greet name="Amitabh">
+    <Counter />
+    {/* <Message /> */}
+
+    {/* <Greet name="Amitabh">
       <p> this is children props</p>
     </Greet>
     <Greet name="Baburao">
@@ -19,7 +24,7 @@ function App() {
     <Welcome name="Bruce" heroName="Batman"/>
     <Welcome name="Clark" heroName="Superman"/>
     <Welcome name="Diana" heroName="Wonder Woman"/>
-    <Hello />
+    <Hello /> */}
     </div>
   );
 }
