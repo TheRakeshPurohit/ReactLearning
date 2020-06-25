@@ -5,26 +5,30 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
     <div className="App">
-    <Counter />
+      <FunctionClick />
+      <ClassClick />
+    {/* <Counter />
     {/* <Message /> */}
-
-    {/* <Greet name="Amitabh">
+{/* 
+    <Greet name="Amitabh" heroName="Vijay Dinanath Chauhan">
       <p> this is children props</p>
     </Greet>
-    <Greet name="Baburao">
+    <Greet name="Baburao" heroName="Paresh Raval">
       <button onClick="alert('nothing');">Enter</button>
     </Greet>
-    <Greet name="Chandler">
+    <Greet name="Chandler" heroName="Friends">
       <p> this is children props</p>
     </Greet>
     <Welcome name="Bruce" heroName="Batman"/>
     <Welcome name="Clark" heroName="Superman"/>
     <Welcome name="Diana" heroName="Wonder Woman"/>
-    <Hello /> */}
+    <Hello />  */}
     </div>
   );
 }
