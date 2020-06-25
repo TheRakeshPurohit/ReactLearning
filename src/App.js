@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Form from './components/Form';
+// import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
@@ -17,7 +18,8 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifecycleA />
+      {/* <Form /> */}
       {/* <Stylesheet primary={true}/> */}
       {/* <NameList /> */}
       {/* <UserGreeting/> */}
