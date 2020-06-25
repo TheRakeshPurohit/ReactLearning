@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Form from './components/Form';
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
@@ -11,12 +12,13 @@ import './App.css';
 // import ParentComponent from './components/ParentComponent';
 // import UserGreeting from './components/UserGreeting';
 // import NameList from './components/NameList';
-import Stylesheet from './components/Stylesheet';
+// import Stylesheet from './components/Stylesheet';
 
 function App() {
   return (
     <div className="App">
-      <Stylesheet primary={true}/>
+      <Form />
+      {/* <Stylesheet primary={true}/> */}
       {/* <NameList /> */}
       {/* <UserGreeting/> */}
       {/* <ParentComponent /> */}
