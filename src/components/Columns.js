@@ -26,10 +26,12 @@ function Columns() {
             {
                 items.map( item => (
                     <React.Fragment key={item.id}>
-                        <td>Title</td>
+                        <tr>
+                        <th>Title</th>
                         <td>{item.name}</td>
                         <td>{item.age}</td>
                         <td>{item.skill}</td>
+                        </tr>
                     </React.Fragment>
                 ))
             }
