@@ -3,11 +3,9 @@ import Columns from './Columns'
 
 function Tables() {
     return (
-        <table>
+        <table border='1'>
             <tbody>
-                <tr>
                     <Columns />
-                </tr>
             </tbody>
         </table>
     )
