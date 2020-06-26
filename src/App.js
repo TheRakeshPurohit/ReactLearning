@@ -1,19 +1,18 @@
 import React from 'react';
 import './App.css';
-import Hero from './components/Hero';
-import ErrorBoundry from './components/ErrorBoundry';
+import ClickCounter from './components/ClickCounter';
 
 function App() {
   return (
     <div className="App">
-      
-      <ErrorBoundry>
+      <ClickCounter />
+      {/* <ErrorBoundry>
       <Hero heroName="Batman" />
       </ErrorBoundry>
 
       <ErrorBoundry>
       <Hero heroName="Joker"/>
-      </ErrorBoundry>
+      </ErrorBoundry> */}
       
       {/* <PortalDemo /> */}
       {/* <FRParentInput  /> */}
