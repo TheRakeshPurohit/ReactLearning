@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import ClickCounter from './components/ClickCounter';
+import User from './components/User';
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter name="rakesh" />
+      <User render={ (isLoggedIn) => isLoggedIn ? 'Rakesh' : 'Guest' } />
+      {/* <ClickCounter name="rakesh" /> */}
       {/* <ErrorBoundry>
       <Hero heroName="Batman" />
       </ErrorBoundry>
