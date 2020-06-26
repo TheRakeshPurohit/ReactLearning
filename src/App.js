@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
-import User from './components/User';
+import ComponentA from './components/ComponentA';
+import { UserProvider } from './components/userContext';
 
 function App() {
   return (
     <div className="App">
-      <User render={ (isLoggedIn) => isLoggedIn ? 'Rakesh' : 'Guest' } />
+      <UserProvider value="Rakesh">
+        <ComponentA />
+      </UserProvider>
+      {/* <User render={ (isLoggedIn) => isLoggedIn ? 'Rakesh' : 'Guest' } /> */}
       {/* <ClickCounter name="rakesh" /> */}
       {/* <ErrorBoundry>
       <Hero heroName="Batman" />
