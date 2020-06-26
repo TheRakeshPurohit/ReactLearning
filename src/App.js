@@ -1,11 +1,21 @@
 import React from 'react';
 import './App.css';
-import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundry from './components/ErrorBoundry';
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+      
+      <ErrorBoundry>
+      <Hero heroName="Batman" />
+      </ErrorBoundry>
+
+      <ErrorBoundry>
+      <Hero heroName="Joker"/>
+      </ErrorBoundry>
+      
+      {/* <PortalDemo /> */}
       {/* <FRParentInput  /> */}
       {/* <FocusInput /> */}
       {/* <RefsDemo /> */}
