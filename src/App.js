@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import PostList from './components/PostList';
+import PostFrom from './components/PostFrom';
 
 function App() {
   return (
     <div className="App">
-      <PostList />
+      <PostFrom />
+      {/* <PostList /> */}
       {/* <UserProvider value="Rakesh">
         <ComponentA />
       </UserProvider> */}
