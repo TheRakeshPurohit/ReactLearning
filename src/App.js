@@ -5,7 +5,7 @@ import ClickCounter from './components/ClickCounter';
 function App() {
   return (
     <div className="App">
-      <ClickCounter />
+      <ClickCounter name="rakesh" />
       {/* <ErrorBoundry>
       <Hero heroName="Batman" />
       </ErrorBoundry>
